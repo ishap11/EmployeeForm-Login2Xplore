@@ -52,8 +52,9 @@ JsonPowerDB is a Real-time, High Performance, Lightweight and Simple to Use, Res
   <a href="https://www.w3schools.com/css/"> <img src="https://img.icons8.com/color/70/000000/css3.png" alt="CSS" /></a>
   <a href="https://www.w3schools.com/js/"><img src="https://img.icons8.com/color/70/000000/javascript--v1.png" alt="JS" /></a>
   <a href="https://www.w3schools.com/js/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQML--tf-oIjbL6kkH4wN9D4FqSUixM1aBovQ&s" alt="jQuery" height="80px"  width="80px" /></a>
+     <a href="https://www.w3schools.com/js/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzNUwj31PQCq8q6WU1rZB-hUxLNKj5j2A8gg&s" alt="AJAX"height="80px"  width="80px /></a>" alt="AJAX" /></a>
   <a href="https://www.w3schools.com/js/"><img src="https://media.licdn.com/dms/image/D4D22AQE6KGrO7C3E0A/feedshare-shrink_2048_1536/0/1701452875140?e=2147483647&v=beta&t=hsgF3TdGmjJtIHTMO78C8fSLjpClfaS6ISdsDi4eKig" alt="JS" height="80px"  width="80px"/></a>
-   <a href="https://www.w3schools.com/js/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzNUwj31PQCq8q6WU1rZB-hUxLNKj5j2A8gg&s" alt="AJAX"height="80px"  width="80px /></a>" alt="AJAX" /></a>
+
  
 </p>
 <p align="right">(<a href="#top">back to top</a>)</p>
