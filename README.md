@@ -40,6 +40,7 @@ JsonPowerDB is a Real-time, High Performance, Lightweight and Simple to Use, Res
 - When multiple records in database , it provides controls on navigation.
 - When last record is displayed, the last and next navigation buttons are disabled.
 -When first record is displayed, the first and previous navigation buttons are disabled.
+![image](https://github.com/user-attachments/assets/473caf82-31dd-49e4-b6a1-8ca65e7073c7)
 -Data stored at User's side in JsonPowerDb Database
 
 
