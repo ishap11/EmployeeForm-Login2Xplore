@@ -37,12 +37,15 @@ JsonPowerDB is a Real-time, High Performance, Lightweight and Simple to Use, Res
 ## Features of Employee Navigation Form
 
 - When new button is clicked, other control buttons and navigation button are disabled
+  ![image](https://github.com/user-attachments/assets/e69f4ed7-6d21-4fa2-a16e-8be942725c3f)
 - When multiple records in database , it provides controls on navigation.
+  ![image](https://github.com/user-attachments/assets/cf3ffe02-4e74-4aef-9edd-a55c9c10aae5)
 - When last record is displayed, the last and next navigation buttons are disabled.
--When first record is displayed, the first and previous navigation buttons are disabled.
+  ![image](https://github.com/user-attachments/assets/8435ae0c-39cc-4494-929e-cb732571d7e4)
+- When first record is displayed, the first and previous navigation buttons are disabled.
 ![image](https://github.com/user-attachments/assets/473caf82-31dd-49e4-b6a1-8ca65e7073c7)
 -Data stored at User's side in JsonPowerDb Database
-
+![image](https://github.com/user-attachments/assets/f0f6ba9b-7303-40b3-8c0f-204373946f13)
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
