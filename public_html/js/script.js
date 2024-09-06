@@ -156,7 +156,7 @@ function resetForm() {
     showData(result);
     jQuery.ajaxSetup({async : true});
     
-    if(isOnlyOneRecordPresent() || isNoRecordPresentLS()) {
+    if(isOnlyRecordPresentLS() || isNoRecordPresentLS()) {
         disableNav(true);
     }
     $('#new').prop('disabled' , false);
@@ -238,7 +238,7 @@ function getFirst() {
 function getPrev() {
     var r = getCurrRecNoFromLS() ;
     if(r === 1){
-        $('#firsr').prop('disabled' , true);
+        $('#first').prop('disabled' , true);
         $('#prev').prop('disabled' , true);
     } 
    var getPrevRequest = createPREV_RECORDRequest(connToken , empDBName , empRelationName , r) ;
@@ -273,11 +273,13 @@ function getLast() {
     setLastRecNo2LS(result);
     showData(result);
    jQuery.ajaxSetup({async : true});
-   $('#first').prop('disabled' , true);
-   $('#prev').prop('disabled' , true);
-   $('#last').prop('disabled' , true);
-   $('#next').prop('disabled' , true);
-    $('#save').prop('disabled' , true);
+     $('#empId').prop("disabled", true);
+    $('#first').prop("disabled", false);
+    $('#prev').prop("disabled", false);
+    $('#last').prop("disabled", true);
+    $('#next').prop("disabled", true);
+    $('#save').prop("disabled", true);
+
 }
  
  function showData(jsonObj) {
@@ -303,7 +305,7 @@ function getLast() {
     $('#new').prop('disabled' , false);
     $('#edit').prop('disabled' , false);
  
-    if (getCurrRecNoFromLS() === getLastecNoFromLS())
+    if (getCurrRecNoFromLS() === getLastRecNoFromLS())
     {
 
         $("#next").prop("disabled", true);
@@ -369,7 +371,7 @@ function checkForNoOrOneRecord() {
         $('#new').prop('disabled' , false);
         return;
     }
-    if( isOnlyOneRecordPresentLS()){
+    if( isOnlyRecordPresentLS()){
         disableForm(true);
         disableNav(true);
         disableCtrl(true);
